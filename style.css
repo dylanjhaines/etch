@@ -1,11 +1,14 @@
-body {
+#start {
     background-color: black;
     color: white;
     display: flex;
     flex-wrap: wrap;
     width: 500px;
     height: 500px;
-    border-style: double;
+}
+
+body {
+    background-color: black;
 }
 
 div {

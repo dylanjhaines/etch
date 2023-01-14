@@ -1,23 +1,15 @@
 #start {
-    background-color: black;
-    color: white;
     display: flex;
     flex-wrap: wrap;
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
 }
 
 body {
     background-color: black;
 }
 
-div {
-    flex-basis: 6.2%;
+.etchCell {
+    background-color: darkred;
 }
 
-.etchCell {
-    background-color: red;
-}
-#etchCell {
-    background-color: red;
-}

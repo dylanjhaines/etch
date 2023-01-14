@@ -12,7 +12,7 @@ function addElement(i) {
   newDiv.classList.add("etchCell");
 
   //sets the size of the "pixels" to be square based on the resolution choice
-  let flexSize = (100/gridSize-.001);
+  let flexSize = (100/gridSize);
   newDiv.style.flexBasis = `${flexSize}%`;
   newDiv.style.height = `${flexSize}%`;
 
@@ -38,8 +38,7 @@ function resetFunction() {
   let remove = document.getElementById("start");
   while(remove.firstChild) {
     remove.removeChild(remove.firstChild);
-  }
-  initialize();
+  } initialize();
   createSketch();
 }
 
